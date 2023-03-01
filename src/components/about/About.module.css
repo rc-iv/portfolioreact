@@ -1,0 +1,14 @@
+.about {
+    /* make height of section 100 pixels */
+    height:1000px;
+    background-image: url("https://i.imgur.com/xdoFzYn.png");
+    /* make font color white*/
+    color: white;
+    /* center text */
+    text-align: center;
+}
+
+.summaryCard{
+    position: relative;
+    top: 600px;
+}
