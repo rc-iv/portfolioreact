@@ -10,7 +10,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Portfolio from "./components/portfolio/Portfolio";
 import Footer from "./components/footer/Footer";
 function App() {
-    const [aboutScroll, aboutRef] = UseScroll()
+    const [homeScroll, homeRef] = UseScroll()
     const [resumeScroll, resumeRef] = UseScroll()
     const [portfolioScroll, portfolioRef] = UseScroll()
     const [contactScroll, contactRef] = UseScroll()
@@ -18,8 +18,8 @@ function App() {
     const scrollHandler = (name) => {
         console.log(`scrollHandler: ${name}`)
         switch (name) {
-            case 'about':
-                aboutScroll()
+            case 'home':
+                homeScroll()
                 break
             case 'resume':
                 resumeScroll()
@@ -37,7 +37,7 @@ function App() {
     return (
         <React.Fragment>
             <PortfolioNavbar scrollHandler={scrollHandler}/>
-            <div ref={aboutRef}>
+            <div ref={homeRef}>
                 <About/>
             </div>
 

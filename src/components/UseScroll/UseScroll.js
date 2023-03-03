@@ -1,4 +1,4 @@
-import react, { useRef } from "react";
+import { useRef } from "react";
 
 const UseScroll = () => {
   const elRef = useRef(null);
