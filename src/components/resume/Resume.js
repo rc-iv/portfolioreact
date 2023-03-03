@@ -77,7 +77,7 @@ function Resume() {
                     <div className={style["section__list"]}>
                         <div className={style["section__list-item"]}>
                             <div className={style.name}>
-                                <a href="https://www.floor20.io" target="_blank">Floor20.io</a>
+                                <a href="https://www.floor20.io" target="_blank" rel='noreferrer'>Floor20.io</a>
                                 </div>
                             <div className={style.text}>
                                 NFT data analytics platform that provides proprietary statistics on the top 20 projects by current volume. <br/><br/>
@@ -89,7 +89,7 @@ function Resume() {
 
                         <div className={style["section__list-item"]}>
                             <div className={style.name}>
-                                <a href="https://www.fakestats.io" target="_blank">FakeStats.io</a>
+                                <a href="https://www.fakestats.io" target="_blank" rel='noreferrer'>FakeStats.io</a>
                                 </div>
                             <div className={style.text}>
                                 Niche NFT tracking application that monitored ownership statistics for a subset of collections
@@ -101,7 +101,7 @@ function Resume() {
 
                         <div className={style["section__list-item"]}>
                             <div className={style.name}>
-                                <a href="https://rciv-web3-blog.herokuapp.com/" target="_blank">NFT Ecosystem Compendium</a>
+                                <a href="https://rciv-web3-blog.herokuapp.com/" target="_blank" rel='noreferrer'>NFT Ecosystem Compendium</a>
                                 </div>
                             <div className={style.text}>
                                 Blog site that breaks down different artist ecosystems provdiing an easy to understand overview of the

@@ -3,14 +3,28 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-function PortfolioNavbar() {
+import {Button} from "react-bootstrap";
+function PortfolioNavbar(props) {
+    const aboutScrollHandler = () => {
+        props.scrollHandler('about')
+    }
+    const resumeScrollHandler = () => {
+        props.scrollHandler('resume')
+    }
+    const portfolioScrollHandler = () => {
+        props.scrollHandler('portfolio')
+    }
+    const contactScrollHandler = () => {
+        props.scrollHandler('contact')
+    }
+
     return (
         <Navbar bg="dark" variant="dark" sticky="top">
             <Container>
                 <Navbar.Brand href="#home">Ray Cook</Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link href="#home">About</Nav.Link>
-                    <NavDropdown title="Portfolio" id="navbarScrollingDropdown">
+                    <Nav.Link onClick={aboutScrollHandler}>About</Nav.Link>
+                    <NavDropdown title="Portfolio" id="navbarScrollingDropdown" onClick={portfolioScrollHandler}>
                         <NavDropdown.Item
                             href="https://www.floor20.io"
                             target="_blank"
@@ -24,8 +38,8 @@ function PortfolioNavbar() {
                             target="_blank"
                         >NFT Ecosystem Blog</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="#resume">Resume</Nav.Link>
-                    <Nav.Link href="#contact">Contact</Nav.Link>
+                    <Nav.Link onClick={resumeScrollHandler}>Resume</Nav.Link>
+                    <Nav.Link onClick={contactScrollHandler}>Contact</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
