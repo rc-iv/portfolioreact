@@ -3,6 +3,21 @@
     height: 300px;
     margin: auto;
 }
+ @media (max-width: 767px) {
+     .portfolio-container {
+         margin: auto;
+         width: 100%;
+     }
+     .portfolio-image {
+         margin: auto;
+         width: 100%;
+     }
+     .portfolio-header {
+         margin: auto;
+         width: 100%;
+     }
+ }
+
 
 .portfolio-container{
     margin: auto;
@@ -17,3 +32,4 @@
     font-weight: bold;
     margin: auto;
 }
+
