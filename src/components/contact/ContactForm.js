@@ -5,16 +5,23 @@ import emailjs from '@emailjs/browser';
 const ContactForm = () => {
     const [formStatus, setFormStatus] = React.useState('Send')
     const form = useRef();
+    const emailInput = useRef();
+    const nameInput = useRef();
+    const messageInput = useRef();
+
     const sendEmail = (e) => {
         e.preventDefault();
-        console.log(form.current)
         emailjs.sendForm('service_ikps24o', 'template_kwnbeld', form.current, 'QeNVIgbwzdRkKR52T')
             .then((result) => {
                 // show the user a success message
             }, (error) => {
                 // show the user an error
             });
-        setFormStatus('Send')
+        nameInput.current.value = ''
+        emailInput.current.value = ''
+        messageInput.current.value = ''
+
+        setFormStatus('Message Sent!')
     }
     return (
         <div className={style.container}>
@@ -25,19 +32,19 @@ const ContactForm = () => {
                         <label className="form-label" htmlFor="from_name">
                             Name
                         </label>
-                        <input className="form-control" type="text" id="name" name='from_name' required/>
+                        <input className="form-control" type="text" id="name" name='from_name' ref={nameInput} required/>
                     </div>
                     <div className="mb-3">
                         <label className="form-label" htmlFor="from_email">
                             Email
                         </label>
-                        <input className="form-control" type="email" id="email" name='from_email' required/>
+                        <input className="form-control" type="email" id="email" name='from_email' ref={emailInput} required/>
                     </div>
                     <div className="mb-3">
                         <label className="form-label" htmlFor="message">
                             Message
                         </label>
-                        <textarea className="form-control" id="message" name='message' required/>
+                        <textarea className="form-control" id="message" name='message' ref={messageInput} required/>
                     </div>
                     <button className="btn btn-danger" type="submit">
                         {formStatus}

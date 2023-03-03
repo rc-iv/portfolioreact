@@ -202,7 +202,7 @@ function Resume() {
                     </div>
                     <div className={style["section__list"]}>
                         <div className={style["section__listItem"]}>
-                            Artificial intelligence, philosophy, sports, music, and cooking.
+                            Artificial intelligence, philosophy, board games/game theory, blockchain, sports, music, and cooking.
                         </div>
                     </div>
                 </div>
