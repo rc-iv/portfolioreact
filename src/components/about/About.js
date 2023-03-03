@@ -1,5 +1,5 @@
 import style from './About.module.css';
-import Card from "../card/Card";
+// import Card from "../card/Card";
 
 const About = () => {
     return (
