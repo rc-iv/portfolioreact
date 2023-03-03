@@ -9,7 +9,7 @@ function Portfolio() {
                 <h1>Projects</h1>
             </div>
             <div className={style['portfolio-container']}>
-                <Carousel variant="dark">
+                <Carousel>
                     <Carousel.Item>
                         <a href="https://www.floor20.io" target="_blank" rel='noreferrer'>
                             <img
