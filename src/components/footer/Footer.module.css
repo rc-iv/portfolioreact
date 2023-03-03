@@ -1,6 +1,6 @@
 .footer-cont {
     margin: auto;
-    width: 800px;
+    max-width: 800px;
     text-align: center;
 }
 
