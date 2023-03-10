@@ -169,7 +169,8 @@
     border-radius: 20px;
     margin-right: 3px;
 }
-
+.text{
+}
 input:checked + label {
     background: #79A9CE;
 }

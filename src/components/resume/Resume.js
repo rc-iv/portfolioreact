@@ -94,7 +94,7 @@ function Resume() {
                             <div className={style.text}>
                                 Niche NFT tracking application that monitored ownership statistics for a subset of collections
                                 to predict owner voting behavior.<br/><br/> Sole developer on the project. Back end built with python. Uses
-                                multiple API's to aggregate data across marketplaces. Interfaces with AWS Dynamo DB. Front end built with
+                                multiple APIs to aggregate data across marketplaces. Interfaces with AWS Dynamo DB. Front end built with
                                 React and deployed to AWS Amplify. Utilizes AWS API Gateway to invoke Lambda functions written in Node.JS.
                             </div>
                         </div>
@@ -104,7 +104,7 @@ function Resume() {
                                 <a href="https://rciv-web3-blog.herokuapp.com/" target="_blank" rel='noreferrer'>NFT Ecosystem Compendium</a>
                                 </div>
                             <div className={style.text}>
-                                Blog site that breaks down different artist ecosystems provdiing an easy to understand overview of the
+                                Blog site that breaks down different artist ecosystems providing an easy to understand overview of the
                                 artist's work and the utility benefits of each piece.<br/><br/> Sole developer on the project. Built with
                                 flask and deployed to Heroku. Utilizes SQL Alchemy to interface with a Postgres database.
                             </div>
