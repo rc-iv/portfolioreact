@@ -11,11 +11,20 @@ function Portfolio() {
             <div className={style['portfolio-container']}>
                 <Carousel>
                     <Carousel.Item>
+                        <a href="https://ezthanks.cards" target="_blank" rel='noreferrer'>
+                            <img
+                                className={style['portfolio-image']}
+                                src="https://i.imgur.com/QM00CFp.jpeg"
+                                alt="EZThanks AI thank you cards"
+                            />
+                        </a>
+                    </Carousel.Item>
+                    <Carousel.Item>
                         <a href="https://www.floor20.io" target="_blank" rel='noreferrer'>
                             <img
                                 className={style['portfolio-image']}
                                 src="https://i.imgur.com/gUQ3Y3Q.jpeg?text=First slide&bg=373940"
-                                alt="First slide"
+                                alt="Floor20.io"
                             />
                         </a>
                     </Carousel.Item>
@@ -24,7 +33,7 @@ function Portfolio() {
                             <img
                                 className={style['portfolio-image']}
                                 src="https://i.imgur.com/HS9bXuH.jpeg?text=Second slide&bg=282c34"
-                                alt="Second slide"
+                                alt="Fakestats.io"
                             />
                         </a>
                     </Carousel.Item>
@@ -33,7 +42,7 @@ function Portfolio() {
                             <img
                                 className={style['portfolio-image']}
                                 src="https://i.imgur.com/l4cl9vN.jpeg?text=Third slide&bg=20232a"
-                                alt="Third slide"
+                                alt="NFT blog"
                             />
                         </a>
                     </Carousel.Item>

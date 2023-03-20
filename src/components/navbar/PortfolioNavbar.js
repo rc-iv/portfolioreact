@@ -24,6 +24,10 @@ function PortfolioNavbar(props) {
                 <Nav className="me-auto">
                     <NavDropdown title="Portfolio" id="navbarScrollingDropdown" onClick={portfolioScrollHandler}>
                         <NavDropdown.Item
+                            href="https://ezthanks.cards"
+                            target="_blank"
+                        >Floor20.io</NavDropdown.Item>
+                        <NavDropdown.Item
                             href="https://www.floor20.io"
                             target="_blank"
                         >Floor20.io</NavDropdown.Item>
