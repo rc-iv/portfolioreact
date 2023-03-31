@@ -11,6 +11,15 @@ function Portfolio() {
             <div className={style['portfolio-container']}>
                 <Carousel>
                     <Carousel.Item>
+                        <a href="https://ai-jack.herokuapp.com/" target="_blank" rel='noreferrer'>
+                            <img
+                                className={style['portfolio-image']}
+                                src="https://i.imgur.com/fo1QwFQ.jpeg"
+                                alt="AI-JACK personal AI assistant"
+                            />
+                        </a>
+                    </Carousel.Item>
+                    <Carousel.Item>
                         <a href="https://ezthanks.cards" target="_blank" rel='noreferrer'>
                             <img
                                 className={style['portfolio-image']}
