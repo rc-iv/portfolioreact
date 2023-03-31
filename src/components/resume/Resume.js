@@ -83,12 +83,10 @@ function Resume() {
                         <div className={style["section__list-item"]}>
                             <div className={style.name}>
                                 <a href="https://ai-jack.herokuapp.com" target="_blank" rel='noreferrer'>AI-JACK</a>
-                                Product that routes AI response to SMS<br/><br/>
-                                Tech stack: Python, Flask,Tailwind CSS, PostgreSQL, Heroku
-
                             </div>
                             <div className={style.text}>
-
+                                Product that routes AI response to SMS<br/><br/>
+                                Tech stack: Python, Flask,Tailwind CSS, PostgreSQL, Heroku
                             </div>
                         </div>
                         <div className={style["section__list-item"]}>
