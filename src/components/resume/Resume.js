@@ -38,7 +38,9 @@ function Resume() {
                             </div>
                             <div className={style.right}>
                                 <div className={style.name}>Product Engineer</div>
-                                <div className="desc">Designed and developed modules for a NFT portfolio tracking tool. Led a group of developers on larger scope projects.</div>
+                                <div className="desc">Designed and developed modules for a NFT portfolio tracking tool.
+                                    Led a group of developers on larger scope projects.
+                                </div>
                             </div>
                         </div>
                         <div className={style["section__list-item"]}>
@@ -49,7 +51,9 @@ function Resume() {
                             </div>
                             <div className={style.right}>
                                 <div className={style.name}>Production Supervisor / IT Director</div>
-                                <div className="desc">Managed manufacturing process for FDA regulated pharmaceuticals. Implemented and maintained IT infrastructure for entire company.</div>
+                                <div className="desc">Managed manufacturing process for FDA regulated pharmaceuticals.
+                                    Implemented and maintained IT infrastructure for entire company.
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -66,7 +70,8 @@ function Resume() {
                             </div>
                             <div className={style.right}>
                                 <div className={style.name}>Computer Science</div>
-                                <div className={style.desc}>Software development with a focus on data and analytics</div>
+                                <div className={style.desc}>Software development with a focus on data and analytics
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -77,36 +82,55 @@ function Resume() {
                     <div className={style["section__list"]}>
                         <div className={style["section__list-item"]}>
                             <div className={style.name}>
-                                <a href="https://www.floor20.io" target="_blank" rel='noreferrer'>Floor20.io</a>
-                                </div>
+                                <a href="https://ai-jack.herokuapp.com" target="_blank" rel='noreferrer'>AI-JACK</a>
+                                Product that routes AI response to SMS<br/><br/>
+                                Tech stack: Python, Flask,Tailwind CSS, PostgreSQL, Heroku
+
+                            </div>
                             <div className={style.text}>
-                                NFT data analytics platform that provides proprietary statistics on the top 20 projects by current volume. <br/><br/>
-                                Sole developer on the project. Back end built with python. Utilizes novel methods to bypass cloudflare
-                                to get access to otherwise unobtainable data. Back end interfaces with AWS Dynamo DB. Front end built with
-                                React and deployed to AWS Amplify. Utilizes AWS API Gateway to invoke Lambda functions written in Node.JS.
+
+                            </div>
+                        </div>
+                        <div className={style["section__list-item"]}>
+                            <div className={style.name}>
+                                <a href="https://ezthanks.cards" target="_blank" rel='noreferrer'>ezthanks.cards</a>
+                            </div>
+                            <div className={style.text}>
+                                AI thank you card generator <br/><br/>
+                                Tech Stack: React, Tailwind CSS, AWS Amplify, Node.js, Lambda, API Gateway
+                            </div>
+                        </div>
+                        <div className={style["section__list-item"]}>
+                            <div className={style.name}>
+                                <a href="https://www.floor20.io" target="_blank" rel='noreferrer'>Floor20.io</a>
+                            </div>
+                            <div className={style.text}>
+                                NFT data analytics platform that provides proprietary statistics on the top 20 projects
+                                by current volume. <br/><br/>
+                                Tech Stack: Python, AWS DynamoDB, React, Node.JS AWS Amplify, API Gateway
                             </div>
                         </div>
 
                         <div className={style["section__list-item"]}>
                             <div className={style.name}>
                                 <a href="https://www.fakestats.io" target="_blank" rel='noreferrer'>FakeStats.io</a>
-                                </div>
+                            </div>
                             <div className={style.text}>
-                                Niche NFT tracking application that monitored ownership statistics for a subset of collections
-                                to predict owner voting behavior.<br/><br/> Sole developer on the project. Back end built with python. Uses
-                                multiple APIs to aggregate data across marketplaces. Interfaces with AWS Dynamo DB. Front end built with
-                                React and deployed to AWS Amplify. Utilizes AWS API Gateway to invoke Lambda functions written in Node.JS.
+                                Niche NFT tracking application that monitored ownership statistics for a subset of
+                                collections to predict owner voting behavior.<br/><br/>
+                                Tech Stack: Python, AWS Dynamo DB, React, Node.JS AWS Amplify, API Gateway, Lambda
                             </div>
                         </div>
 
                         <div className={style["section__list-item"]}>
                             <div className={style.name}>
-                                <a href="https://rciv-web3-blog.herokuapp.com/" target="_blank" rel='noreferrer'>NFT Ecosystem Compendium</a>
-                                </div>
+                                <a href="https://rciv-web3-blog.herokuapp.com/" target="_blank" rel='noreferrer'>NFT
+                                    Ecosystem Compendium</a>
+                            </div>
                             <div className={style.text}>
-                                Blog site that breaks down different artist ecosystems providing an easy to understand overview of the
-                                artist's work and the utility benefits of each piece.<br/><br/> Sole developer on the project. Built with
-                                flask and deployed to Heroku. Utilizes SQL Alchemy to interface with a Postgres database.
+                                Blog site that breaks down different artist ecosystems providing an easy to understand
+                                overview of the artist's work and the utility benefits of each piece.<br/><br/>
+                                Tech Stack: Flask, Heroku, SQL Alchemy,PostgreSQL
                             </div>
                         </div>
                     </div>
@@ -149,7 +173,7 @@ function Resume() {
                                 <label htmlFor="ck3"></label>
                                 <input id="ck4" type="checkbox" checked/>
                                 <label htmlFor="ck4"></label>
-                                <input id="ck5" type="checkbox" />
+                                <input id="ck5" type="checkbox"/>
                                 <label htmlFor="ck5"></label>
                             </div>
                         </div>
@@ -157,7 +181,7 @@ function Resume() {
                         <div className={style["skills__item"]}>
                             <div className={style.left}>
                                 <div className={style.name}>
-                                   AWS
+                                    AWS
                                 </div>
                             </div>
                             <div className={style.right}>
@@ -187,9 +211,9 @@ function Resume() {
                                 <label htmlFor="ck2"></label>
                                 <input id="ck3" type="checkbox" checked/>
                                 <label htmlFor="ck3"></label>
-                                <input id="ck4" type="checkbox" />
+                                <input id="ck4" type="checkbox"/>
                                 <label htmlFor="ck4"></label>
-                                <input id="ck5" type="checkbox" />
+                                <input id="ck5" type="checkbox"/>
                                 <label htmlFor="ck5"></label>
                             </div>
                         </div>
@@ -202,7 +226,8 @@ function Resume() {
                     </div>
                     <div className={style["section__list"]}>
                         <div className={style["section__listItem"]}>
-                            Artificial intelligence, philosophy, board games/game theory, blockchain, sports, music, and cooking.
+                            Artificial intelligence, philosophy, board games/game theory, blockchain, sports, music, and
+                            cooking.
                         </div>
                     </div>
                 </div>
