@@ -6,16 +6,16 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function PortfolioNavbar(props) {
     const homeScrollHandler = () => {
         props.scrollHandler('home')
-    }
+    };
     const resumeScrollHandler = () => {
         props.scrollHandler('resume')
-    }
+    };
     const portfolioScrollHandler = () => {
         props.scrollHandler('portfolio')
-    }
+    };
     const contactScrollHandler = () => {
         props.scrollHandler('contact')
-    }
+    };
 
     return (
         <Navbar bg="dark" variant="dark" sticky="top">

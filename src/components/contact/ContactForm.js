@@ -3,7 +3,7 @@ import { useRef } from "react";
 import style from './ContactForm.module.css';
 import emailjs from '@emailjs/browser';
 const ContactForm = () => {
-    const [formStatus, setFormStatus] = React.useState('Send')
+    const [formStatus, setFormStatus] = React.useState('Send');
     const form = useRef();
     const emailInput = useRef();
     const nameInput = useRef();
@@ -17,11 +17,11 @@ const ContactForm = () => {
             }, (error) => {
                 // show the user an error
             });
-        nameInput.current.value = ''
-        emailInput.current.value = ''
-        messageInput.current.value = ''
+        nameInput.current.value = '';
+        emailInput.current.value = '';
+        messageInput.current.value = '';
 
-        setFormStatus('Message Sent!')
+        setFormStatus('Message Sent!');
     }
     return (
         <div className={style.container}>

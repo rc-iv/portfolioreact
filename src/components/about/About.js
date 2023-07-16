@@ -1,5 +1,4 @@
 import style from './About.module.css';
-// import Card from "../card/Card";
 
 const About = () => {
     return (
@@ -8,7 +7,7 @@ const About = () => {
             {/*    <Card title='About Me'>As a highly motivated and dedicated software engineer with a BS in computer*/}
             {/*        science and experience in manufacturing and NFT data analytics, I am seeking an entry-level*/}
             {/*        position*/}
-            {/*        in software development. With proficiency in Python, JavaScript, React, HTML, CSS, Node.js, AWS,*/}
+            {/*        in software development. With proficiency in Python, JavaScript, React, HTML, CSS, AWS,*/}
             {/*        and*/}
             {/*        Heroku, I am eager to apply my technical skills and passion for software development to*/}
             {/*        contribute*/}
