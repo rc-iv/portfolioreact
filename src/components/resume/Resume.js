@@ -20,7 +20,7 @@ function Resume() {
 
                 <div className={style.about}>
                     <span className={style.position}>Software Developer</span>
-                    <span className={style.desc}>Back End Software Developer with experience using Python, Node.JS, React, AWS, and Heroku. I am motivated, eager to learn, and seeking  a position with room to grow.</span>
+                    <span className={style.desc}>Software Developer with experience using Python, Javascript, React, AWS, and Heroku. I am motivated, eager to learn, and seeking a position with room to grow.</span>
                 </div>
 
             </div>
@@ -82,11 +82,11 @@ function Resume() {
                     <div className={style["section__list"]}>
                         <div className={style["section__list-item"]}>
                             <div className={style.name}>
-                                <a href="https://ai-jack.herokuapp.com" target="_blank" rel='noreferrer'>AI-JACK</a>
+                                <a href="https://abyssalinfinity.com" target="_blank" rel='noreferrer'>Abyssal Infinty</a>
                             </div>
                             <div className={style.text}>
-                                Product that routes AI response to SMS<br/><br/>
-                                Tech stack: Python, Flask,Tailwind CSS, PostgreSQL, Heroku
+                                2D endless dungeon scroller with dungeons, monsters, npcs, and items all generated and illlustrated via AI<br/><br/>
+                                Tech stack: React, AWS Amplify, APIGateway webscoket, JS Lambdas, DynamoDB, S3
                             </div>
                         </div>
                         <div className={style["section__list-item"]}>
@@ -95,7 +95,7 @@ function Resume() {
                             </div>
                             <div className={style.text}>
                                 AI thank you card generator <br/><br/>
-                                Tech Stack: React, Tailwind CSS, AWS Amplify, Node.js, Lambda, API Gateway
+                                Tech Stack: React, AWS Amplify, JS Lambdas, API Gateway
                             </div>
                         </div>
                         <div className={style["section__list-item"]}>
@@ -105,7 +105,7 @@ function Resume() {
                             <div className={style.text}>
                                 NFT data analytics platform that provides proprietary statistics on the top 20 projects
                                 by current volume. <br/><br/>
-                                Tech Stack: Python, AWS DynamoDB, React, Node.JS AWS Amplify, API Gateway
+                                Tech Stack: React, AWS Amplify, API Gateway, Python, AWS DynamoDB
                             </div>
                         </div>
 
@@ -116,7 +116,7 @@ function Resume() {
                             <div className={style.text}>
                                 Niche NFT tracking application that monitored ownership statistics for a subset of
                                 collections to predict owner voting behavior.<br/><br/>
-                                Tech Stack: Python, AWS Dynamo DB, React, Node.JS AWS Amplify, API Gateway, Lambda
+                                Tech Stack: React, AWS Amplify, API Gateway, JS Lambda, Python, AWS Dynamo DB
                             </div>
                         </div>
 
@@ -128,13 +128,13 @@ function Resume() {
                             <div className={style.text}>
                                 Blog site that breaks down different artist ecosystems providing an easy to understand
                                 overview of the artist's work and the utility benefits of each piece.<br/><br/>
-                                Tech Stack: Flask, Heroku, SQL Alchemy,PostgreSQL
+                                Tech Stack: Flask, Heroku, SQL Alchemy, PostgreSQL
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className={style.section}>
-                    <div className={style["section__title"]}>Skills</div>
+                    <div className={style["section__title"]}>Competency</div>
                     <div className={style.skills}>
                         <div className={style["skills__item"]}>
                             <div className={style.left}>
@@ -199,7 +199,7 @@ function Resume() {
                         <div className={style["skills__item"]}>
                             <div className={style.left}>
                                 <div className={style.name}>
-                                    Node.js/Javascript
+                                    Javascript
                                 </div>
                             </div>
                             <div className={style.right}>
@@ -209,7 +209,7 @@ function Resume() {
                                 <label htmlFor="ck2"></label>
                                 <input id="ck3" type="checkbox" checked/>
                                 <label htmlFor="ck3"></label>
-                                <input id="ck4" type="checkbox"/>
+                                <input id="ck4" type="checkbox" checked/>
                                 <label htmlFor="ck4"></label>
                                 <input id="ck5" type="checkbox"/>
                                 <label htmlFor="ck5"></label>
