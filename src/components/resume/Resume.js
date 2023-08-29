@@ -82,10 +82,12 @@ function Resume() {
                     <div className={style["section__list"]}>
                         <div className={style["section__list-item"]}>
                             <div className={style.name}>
-                                <a href="https://abyssalinfinity.com" target="_blank" rel='noreferrer'>Abyssal Infinty</a>
+                                <a href="https://abyssalinfinity.com" target="_blank" rel='noreferrer'>Abyssal
+                                    Infinty</a>
                             </div>
                             <div className={style.text}>
-                                2D endless dungeon scroller with dungeons, monsters, npcs, and items all generated and illlustrated via AI<br/><br/>
+                                2D endless dungeon scroller with dungeons, monsters, npcs, and items all generated and
+                                illlustrated via AI<br/><br/>
                                 Tech stack: React, AWS Amplify, APIGateway webscoket, JS Lambdas, DynamoDB, S3
                             </div>
                         </div>
@@ -98,17 +100,6 @@ function Resume() {
                                 Tech Stack: React, AWS Amplify, JS Lambdas, API Gateway
                             </div>
                         </div>
-                        <div className={style["section__list-item"]}>
-                            <div className={style.name}>
-                                <a href="https://www.floor20.io" target="_blank" rel='noreferrer'>Floor20.io</a>
-                            </div>
-                            <div className={style.text}>
-                                NFT data analytics platform that provides proprietary statistics on the top 20 projects
-                                by current volume. <br/><br/>
-                                Tech Stack: React, AWS Amplify, API Gateway, Python, AWS DynamoDB
-                            </div>
-                        </div>
-
                         <div className={style["section__list-item"]}>
                             <div className={style.name}>
                                 <a href="https://www.fakestats.io" target="_blank" rel='noreferrer'>FakeStats.io</a>
@@ -135,88 +126,12 @@ function Resume() {
                 </div>
                 <div className={style.section}>
                     <div className={style["section__title"]}>Competency</div>
-                    <div className={style.skills}>
-                        <div className={style["skills__item"]}>
-                            <div className={style.left}>
-                                <div className={style.name}>
-                                    Python
-                                </div>
-                            </div>
-                            <div className={style.right}>
-                                <input id="ck1" type="checkbox" checked/>
-                                <label htmlFor="ck1"></label>
-                                <input id="ck2" type="checkbox" checked/>
-                                <label htmlFor="ck2"></label>
-                                <input id="ck3" type="checkbox" checked/>
-                                <label htmlFor="ck3"></label>
-                                <input id="ck4" type="checkbox" checked/>
-                                <label htmlFor="ck4"></label>
-                                <input id="ck5" type="checkbox" checked/>
-                                <label htmlFor="ck5"></label>
-                            </div>
-                        </div>
-
-                        <div className={style["skills__item"]}>
-                            <div className={style.left}>
-                                <div className={style.name}>
-                                    React
-                                </div>
-                            </div>
-                            <div className={style.right}>
-                                <input id="ck1" type="checkbox" checked/>
-                                <label htmlFor="ck1"></label>
-                                <input id="ck2" type="checkbox" checked/>
-                                <label htmlFor="ck2"></label>
-                                <input id="ck3" type="checkbox" checked/>
-                                <label htmlFor="ck3"></label>
-                                <input id="ck4" type="checkbox" checked/>
-                                <label htmlFor="ck4"></label>
-                                <input id="ck5" type="checkbox"/>
-                                <label htmlFor="ck5"></label>
-                            </div>
-                        </div>
-
-                        <div className={style["skills__item"]}>
-                            <div className={style.left}>
-                                <div className={style.name}>
-                                    AWS
-                                </div>
-                            </div>
-                            <div className={style.right}>
-                                <input id="ck1" type="checkbox" checked/>
-                                <label htmlFor="ck1"></label>
-                                <input id="ck2" type="checkbox" checked/>
-                                <label htmlFor="ck2"></label>
-                                <input id="ck3" type="checkbox" checked/>
-                                <label htmlFor="ck3"></label>
-                                <input id="ck4" type="checkbox" checked/>
-                                <label htmlFor="ck4"></label>
-                                <input id="ck5" type="checkbox"/>
-                                <label htmlFor="ck5"></label>
-                            </div>
-                        </div>
-
-                        <div className={style["skills__item"]}>
-                            <div className={style.left}>
-                                <div className={style.name}>
-                                    Javascript
-                                </div>
-                            </div>
-                            <div className={style.right}>
-                                <input id="ck1" type="checkbox" checked/>
-                                <label htmlFor="ck1"></label>
-                                <input id="ck2" type="checkbox" checked/>
-                                <label htmlFor="ck2"></label>
-                                <input id="ck3" type="checkbox" checked/>
-                                <label htmlFor="ck3"></label>
-                                <input id="ck4" type="checkbox" checked/>
-                                <label htmlFor="ck4"></label>
-                                <input id="ck5" type="checkbox"/>
-                                <label htmlFor="ck5"></label>
-                            </div>
-                        </div>
+                    <div>
+                        <strong>Languages:</strong> Python, Javascript, Typescript, C#, Java, C, C++ <br/>
+                        <strong>Frameworks:</strong> React, Tailwind, HTML, CSS, Flask, Bootstrap <br/>
+                        <strong>Deployment:</strong> AWS Cloud Computing, Heroku Deployment <br/>
+                        <strong>Database Management:</strong> SQL, DynamoDB, Postgres, SQLite
                     </div>
-
                 </div>
                 <div className={style.section}>
                     <div className={style["section__title"]}>

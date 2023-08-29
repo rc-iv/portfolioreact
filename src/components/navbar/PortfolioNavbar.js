@@ -31,10 +31,6 @@ function PortfolioNavbar(props) {
                             target="_blank"
                         >ezthanks.cards</NavDropdown.Item>
                         <NavDropdown.Item
-                            href="https://www.floor20.io"
-                            target="_blank"
-                        >Floor20.io</NavDropdown.Item>
-                        <NavDropdown.Item
                             href="https://www.fakestats.io"
                             target="_blank"
                         >FakeStats.io</NavDropdown.Item>

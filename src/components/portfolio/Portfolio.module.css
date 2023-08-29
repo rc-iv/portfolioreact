@@ -1,3 +1,25 @@
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skills__column {
+    flex: 1;
+    margin: 10px;
+}
+
+.skills__column-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.skills__column-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .portfolio-image{
     width: 800px;
     height: 300px;
@@ -32,4 +54,3 @@
     font-weight: bold;
     margin: auto;
 }
-

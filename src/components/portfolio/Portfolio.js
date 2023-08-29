@@ -29,15 +29,6 @@ function Portfolio() {
                         </a>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <a href="https://www.floor20.io" target="_blank" rel='noreferrer'>
-                            <img
-                                className={style['portfolio-image']}
-                                src="https://i.imgur.com/gUQ3Y3Q.jpeg?text=First slide&bg=373940"
-                                alt="Floor20.io"
-                            />
-                        </a>
-                    </Carousel.Item>
-                    <Carousel.Item>
                         <a href='https://www.fakestats.io' target="_blank" rel='noreferrer'>
                             <img
                                 className={style['portfolio-image']}
