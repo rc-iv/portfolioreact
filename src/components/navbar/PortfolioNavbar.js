@@ -3,6 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import style from "./PortfolioNavbar.module.css";
+
 function PortfolioNavbar(props) {
     const homeScrollHandler = () => {
         props.scrollHandler('home')
@@ -20,9 +22,13 @@ function PortfolioNavbar(props) {
     return (
         <Navbar bg="dark" variant="dark" sticky="top">
             <Container>
-                <Navbar.Brand onClick={homeScrollHandler}>Ray Cook</Navbar.Brand>
+                <Navbar.Brand onClick={homeScrollHandler} className={style.name}>Ray Cook</Navbar.Brand>
                 <Nav className="me-auto">
                     <NavDropdown title="Portfolio" id="navbarScrollingDropdown" onClick={portfolioScrollHandler}>
+                    <NavDropdown.Item
+                            href="https://rmndrbot.com/"
+                            target="_blank"
+                        >RMNDR Discord Bot</NavDropdown.Item>
                         <NavDropdown.Item
                             href="https://abyssalinfinity.com/"
                             target="_blank"
@@ -30,10 +36,6 @@ function PortfolioNavbar(props) {
                             href="https://ezthanks.cards"
                             target="_blank"
                         >ezthanks.cards</NavDropdown.Item>
-                        <NavDropdown.Item
-                            href="https://www.fakestats.io"
-                            target="_blank"
-                        >FakeStats.io</NavDropdown.Item>
                         <NavDropdown.Item
                             href="https://rciv-web3-blog.herokuapp.com/"
                             target="_blank"
